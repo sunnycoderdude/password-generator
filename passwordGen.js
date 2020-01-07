@@ -1,28 +1,42 @@
 
 
-// Length
-var passLength = 80;
+// Prompt the User for a Password Length
+var passLengthString = prompt("Choose a password length between 8 and 128 characters long!");
+var passLength = parseInt(passLengthString);
+console.log(passLength);
+
+
+if (passLength < 8 || passLength > 128) {
+    passLengthString = prompt("Choose a password length between 8 and 128 characters long!");
+    passLength = parseInt(passLengthString);
+} else {
+    passLength = passLength;
+}
 
 // Password Attributes
 
     // Special Characters
-    var specialChar = false;
+    var specialChar = confirm("Do you want special characters?");
     var specialCharString = "!#$%&'()*+,-./:;<=>?@[]^_`{|}~";
+    console.log(specialChar);
 
     // Numeric Characters
-    var numericChar = false;
+    var numericChar = confirm("Do you want numbers?");
     var numericCharString = "0123456789";
+    console.log(numericChar);
 
     // console.log(numericCharString[Math.floor(Math.random() * 9)]);
 
     // Lower Case Characters
-    var lowerChar = true;
+    var lowerChar = confirm("Do you want lower case characters?");
     var lowerCharString = "abcdefghijklmnopqrstuvwxyz";
+    console.log(lowerChar);
 
     // console.log(lowerCharString[Math.floor(Math.random() * 25)]);
 
-    var upperChar = true;
+    var upperChar = confirm("Do you want upper case characters?");
     var upperCharString = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
+    console.log(upperChar);
 
 // String from which we pick password
 var passwordBucket = "";
