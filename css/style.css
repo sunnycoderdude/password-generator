@@ -1,0 +1,221 @@
+header {
+    height: 50px;
+    background: #ffffff;
+    border: 1px;
+    border-color: #cccccc;
+    font-family: 'Georgia', Times, 'Times New Roman', serif;
+}
+
+body {
+    background: url("../../images/background.png");
+}
+
+/* Navbar Styling */
+
+.name-header {
+    font-weight: bold;
+    font-family: 'Georgia', Times, 'Times New Roman', serif;
+    color: white;
+    background: #4aaaa5;
+    width: 200px;
+    height: 50px;
+    padding: 10px;
+}
+
+.navbar-light .navbar-brand {
+    color: white;
+}
+
+/* Main Page Styling */
+
+.main-content {
+    color: #777777;
+    margin-top: 40px;
+    padding: 10px 15px 15px 10px;
+    /* min-height: calc(100vh - 50px); */
+    background: #ffffff;
+    border-color: #dddddd;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+}
+
+
+.main-body-header {
+    font-weight: bold;
+    font-family: 'Georgia', Times, 'Times New Roman', serif;
+    width: 200px;
+    height: 30px;
+    padding: 10px;
+    text-align: left;
+    color: #4aaaa5;
+}
+
+.my-name {
+    position: absolute;
+    width: 70px;
+    left: 0px;
+    font-weight: bold;
+    float: left;
+    width: 200px;
+    height: 35px;
+    padding: 15px 0px 0px 20px;
+    text-align: left;
+    background: #4aaaa5;
+}
+
+.about {
+    position: absolute;
+    width: 70px;
+    right: 200px;
+    height: 40px;
+    padding: 15px;
+    text-align: center;
+    color: #777777;
+}
+
+hr {
+    background-color: #666666;
+    padding: 0px 10px 0px 10px;
+}
+
+/* Header and Footer Styling */
+
+.header-elements {
+    position: relative;
+    margin-left: 200px;
+    margin-right: 200px;
+}
+
+.footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    height: 50px;
+    padding: 5px 5px 5px 5px;
+    background: #666666;
+    border-top: 8px solid #4aaaa5;
+    text-align: center;
+    clear: both;
+    color: white;
+    height: 50px;
+    margin-top: -50px;
+    font-family: 'Georgia', Times, 'Times New Roman', serif;
+}
+
+.portfolio {
+    position: absolute;
+    width: 70px;
+    right: 130px;
+    height: 40px;
+    padding: 15px;
+    text-align: center;
+    color: #777777;
+}
+
+.contact {
+    position: absolute;
+    right: 60px;
+    height: 40px;
+    padding: 15px;
+    text-align: center;
+    color: #777777;
+}
+
+.portfolio-content {
+    /* min-height: calc(100vh - 180px); */
+    display: block;
+    clear: both;
+    margin-left: 200px;
+    margin-right: 200px;
+    margin-top: 20px;
+    margin-bottom: 70px;
+    width: 960px;
+    height: 960px;
+    padding: 10px;
+    color: #777777;
+    background: #ffffff;
+    border-color: #dddddd;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+}
+
+.its-me {
+    width: 203px;
+    height: 232px;
+    float: left;
+}
+
+.name-input {
+    width: 940px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.email-input {
+    width: 940px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.message-input {
+    width: 940px;
+    height: 300px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.submit-button {
+    margin-top: 5px;
+    margin-bottom: 5px;
+    width: 100px;
+    height: 60px;
+    padding: 20px 10px 10px 0px;
+    background-color: #4aaaa5;
+    color: white;
+    text-align: center;
+}
+
+/* Portfolio Image Styling */
+
+.row {
+    padding: 10px 0px 0px 10px;
+}
+
+.col-sm-3 {
+    padding: 10px 10px 10px 10px;
+}
+
+.placeholder {
+    width: 200px;
+    height: 200px;
+    padding: 10px 0px 0px 10px;
+    background: url("../../images/placeholder.png")
+}
+
+.placeholder-name {
+    width: 200px;
+    height: 40px;
+    position: relative;
+    top: 145px;
+    padding: 10px 0px 0px 10px;
+    text-align: center;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    color: white;
+    background: #4aaaa5;
+}
+
+/* Contact Styling */
+
+.form-group {
+    padding: 10px 10px 10px 10px;
+}
+
+.textarea {
+    height: 250px;
+  }
+
+/* Media Query for Small Sizes */
+
+@media screen and (max-width: 768px) {
+    .inline {
+        display: inline-block;
+    }
+}
