@@ -15,10 +15,33 @@
     <link rel="stylesheet" href="../password-generator/css/style.css">
 </head>
 <body>
+
+    <script src="passwordGen.js"></script>
     
-    <script src="./passwordGen.js">
-    
-    </script>
+    <div class="container-lg heading">
+        Password Generator
+    </div>
+
+    <div class="container-lg">
+        <div class="container-lg heading2 mainbox">
+            Generate a Password
+        </div>
+
+        <div class="container-lg passbox">
+            <p id="yourPassword"></p>
+        </div>
+
+        <div class="container-lg">
+            <div class="row">
+                <button type="button" class="col-sm-4 button1 btn btn-danger" onclick="generate()">Generate Password</button>
+                <div class="col-sm-4">
+                </div>
+                <button type="button" class="col-sm-4 button2 btn btn-secondary" onclick="copyToClip()">Copy to Clipboard</button>
+            </div>
+        </div>
+
+    </div>
+
 
 </body>
 </html>

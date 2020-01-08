@@ -1,4 +1,4 @@
-
+function generate() {
 
 // Prompt the User for a Password Length
 var passLengthString = prompt("Choose a password length between 8 and 128 characters long!");
@@ -65,3 +65,13 @@ for (let i = 0; i < passLength; i++) {
 }
 
 console.log(password);
+
+document.getElementById("yourPassword").innerHTML = password;
+
+}
+
+function copyToClip() {
+    textToCopy = document.querySelector('p').innerText;
+    navigator.clipboard.writeText(textToCopy);
+
+}
